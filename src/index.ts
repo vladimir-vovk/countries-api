@@ -1,9 +1,11 @@
 import express from 'express'
+import cors from 'cors'
 import { countries } from './api'
 
 const app = express()
 const PORT = process.env.PORT || 5000
 
+app.use(cors())
 app.use('/countries', countries)
 
 app.use('*', (req, res) => {
