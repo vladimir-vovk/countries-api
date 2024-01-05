@@ -1,6 +1,6 @@
 # Simple Countries API
 
-Try it here: [https://vvovk-countries-api.herokuapp.com/countries](https://vvovk-countries-api.herokuapp.com/countries).
+Try it here: [https://vovk-countries-api.fly.dev/countries](https://vovk-countries-api.fly.dev/countries).
 
 This API will return a list of countries. Two parameters are available `limit` and `offset`.
 
